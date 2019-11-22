@@ -1,69 +1,9 @@
-<!DOCTYPE html>
-<html  >
-<head>
-  <!-- Site made with Mobirise Website Builder v4.11.4, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.11.4, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="./assets/images/OFFICE_JR_LOGO_PADRÃO_SEM_FUNDO.png" type="image/x-icon">
-  <meta name="description" content="">
-  
-  <title>Office Jr. Consultoria</title>
-  <link rel="stylesheet" href="./assets/web/assets/mobirise-icons/mobirise-icons.css">
-  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="./assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="./assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="./assets/tether/tether.min.css">
-  <link rel="stylesheet" href="./assets/theme/css/style.css">
-  <link rel="stylesheet" href="./assets/gallery/style.css">
-  <link rel="preload" as="style" href="./assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="./assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
-  
-</head>
-<body>
-  <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="menu-logo">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="#">
-                         <img src="assets/images/office-jr-logo-padro-sem-fundo-usar-em-fundos-escuros-112x95.png" alt="Mobirise" title="" style="height: 3.8rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-white display-4" href="#" style="font-size: 20px;">
-                        Office JR.<br>Consultoria</a></span>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                <div class="navbar-buttons mbr-section-btn">
-                    <a class="btn btn-sm btn-white-outline display-4" href="#servicos" style="font-size: 20px;">
-                        <span class="mbr-iconfont mbr-iconfont-btn "></span>
-                        Serviços
-                    </a>
-                    <a class="btn btn-sm btn-primary display-4" href="#contato" style="font-size: 20px;">
-                        <span class="mbr-iconfont mbr-iconfont-btn "></span>
-                        Contato
-                    </a>
-                </div>
-            </ul>
-        </div>
-    </nav>
-</section>
+<?php
+    include("../include/header.php");
+?>
 
-<section class="engine"><a href="https://mobirise.info/y">html web templates</a></section><section class="cid-qTkA127IK8 mbr-fullscreen mbr-parallax-background" id="header2-1">
+<!--Conteúdo da Página-->
+<section class="engine"><a href="#">html web templates</a></section><section class="cid-qTkA127IK8 mbr-fullscreen mbr-parallax-background" id="header2-1">
     <div class="container align-center">
         <div class="row justify-content-md-center">
             <div class="mbr-white col-md-10">
@@ -97,7 +37,7 @@
         <h3 class="mbr-section-subtitle display-5 align-center mbr-fonts-style mbr-light">
             Somos uma empresa multidisciplinar que atua nas seguintes áreas
         </h3>
-        <div class="media-container-row pt-5 ">
+        <div class="media-container-row pt-5">
             <div class="card p-3 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper ">
                     <div class="card-img">
@@ -105,7 +45,7 @@
                         <div class="mbr-section-btn text-center">
                             <a href="" class="btn btn-primary display-4">Saiba Mais</a>
                         </div>
-                        <img src="assets/images/cursos/adm.jpg" alt="Administração" style="height: 400px;">
+                        <img src="../assets/images/cursos/adm.jpg" alt="Administração" style="height: 400px;">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
@@ -113,7 +53,7 @@
                         </h4>
                         <p class="mbr-text mbr-fonts-style align-left display-7">
                                 O profissional formado em Administração de Empresas tem como principal função planejar, 
-                                organizar e gerenciar o uso dos recursos pessoais e financeiros de uma organização. 
+                                organizar e gerenciar o uso dos recursos pessoais e financeiros de uma organização. <br><br>
                         </p>
                     </div>
                 </div>
@@ -123,9 +63,9 @@
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
                         <div class="mbr-section-btn text-center">
-                            <a href="si.html" class="btn btn-primary display-4">Saiba Mais</a>
+                            <a href="../servicos/sistemas_de_informacao.php" class="btn btn-primary display-4">Saiba Mais</a>
                         </div>
-                        <img src="assets/images/cursos/si.jpg" alt="Sistemas de Informação" style="height: 400px;">
+                        <img src="../assets/images/cursos/si.jpg" alt="Sistemas de Informação" style="height: 400px;">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
@@ -147,7 +87,7 @@
                         <div class="mbr-section-btn text-center">
                             <a href="" class="btn btn-primary display-4">Saiba Mais</a>
                         </div>
-                        <img src="assets/images/cursos/ped.jpg" alt="Pedagogia" style="height: 400px;">
+                        <img src="../assets/images/cursos/ped.jpg" alt="Pedagogia" style="height: 400px;">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
@@ -169,14 +109,14 @@
                             <div class="mbr-section-btn text-center">
                                 <a href="" class="btn btn-primary display-4">Saiba Mais</a>
                             </div>
-                            <img src="assets/images/cursos/em.jpg" alt="Engenharia Metalúrgica" style="height: 400px;">
+                            <img src="../assets/images/cursos/em.jpg" alt="Engenharia Metalúrgica" style="height: 400px;">
                         </div>
                         <div class="card-box">
                             <h4 class="card-title mbr-fonts-style display-7">
                                 Engenharia Metalúrgica
                             </h4>
                             <p class="mbr-text mbr-fonts-style display-7">
-                                    O Engenheiro Metalúrgico é responsável pelos projetos de tratamento e de produção de metais e ligas metálicas.
+                                    O Engenheiro Metalúrgico é responsável pelos projetos de tratamento e de produção de metais e ligas metálicas.<br><br><br><br>
                             </p>
                         </div>
                     </div>
@@ -201,7 +141,7 @@
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form"><input type="hidden" name="email" data-form-email="true" value="hLTMjNHuZ0Bbdi1nrV++GNuggy7xqEQSzy26A9OytJTuH0kjErwPl7HPMMphKah2P5sAJwfvCtLUqcyHKRDSHyJOFEgyueMgEnPq5iBo3a5/ao0KfSlLln3P63HaIwPb">
+                <form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form"><input type="hidden" name="email" data-form-email="true" value="hLTMjNHuZ0Bbdi1nrV++GNuggy7xqEQSzy26A9OytJTuH0kjErwPl7HPMMphKah2P5sAJwfvCtLUqcyHKRDSHyJOFEgyueMgEnPq5iBo3a5/ao0KfSlLln3P63HaIwPb">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -239,100 +179,7 @@
     </div>
 </section>
 
-<section class="contacts4 cid-rInqGbLNXF" id="contacts4-l">
-
-    
-
-    <div class="main_wrapper">
-        <div class="b_wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-5 p-0">
-                        <div class="block p-5">
-                            <div class="block_wrapper">
-                                <h4 class="align-left mbr-fonts-style pb-4 m-0 display-5">Contato</h4>
-                                <p class="mbr-text align-left mbr-fonts-style pb-4 m-0 display-7">(31) 3938-1200<br>contato@officejr.com.br</p>
-                                <p class="mbr-text align-left mbr-fonts-style m-0 display-7">R. Afonso Sardinha, 90, Ouro Branco - MG, <br>36420-000<br><br></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Map-->
-        <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAEIpgj38KyLFELm2bK9Y7krBkz1K-cMq8&amp;q=place_id:ChIJGdgUj6nkowARgbEx2_zFGeA" allowfullscreen=""></iframe></div>
-    </div>
-</section>
-
-<section class="cid-rInrGNH5Hi" id="footer5-n">
-
-    <div class="container">
-        <div class="media-container-row">
-            <div class="col-md-3">
-                <div class="media-wrap">
-                    
-                       <img src="assets/images/office-jr-logo-padro-sem-fundo-usar-em-fundos-escuros-226x192.png" alt="Mobirise" title="">
-                    
-                </div>
-            </div>
-            <div class="col-md-9">
-                <p class="mbr-text align-right links mbr-fonts-style display-7">&nbsp;&nbsp;</p>
-            </div>
-        </div>
-        <div class="footer-lower">
-            <div class="media-container-row">
-                <div class="col-md-12">
-                    <hr>
-                </div>
-            </div>
-            <div class="media-container-row mbr-white">
-                <div class="col-md-6 copyright">
-                    <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2019 Office Jr. - Todos os direitos reservados.</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="social-list align-right copyright">
-                        <p class="mbr-text mbr-fonts-style display-7">Acesse também as nossas redes sociais!</p>
-                    </div>
-                    <div class="social-list align-right">
-                        <div class="soc-item">
-                            <a href="https://www.facebook.com/officejunior/" target="_blank">
-                                <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
-                            </a>
-                        </div>
-                        <div class="soc-item">
-                            <a href="https://www.instagram.com/officejr/" target="_blank">
-                                <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-  <script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/dropdown/js/nav-dropdown.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/parallax/jarallax.min.js"></script>
-  <script src="assets/masonry/masonry.pkgd.min.js"></script>
-  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
-  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
-  <script src="assets/mbr-popup-btns/mbr-popup-btns.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  <script src="assets/slidervideo/script.js"></script>
-  <script src="assets/gallery/player.min.js"></script>
-  <script src="assets/gallery/script.js"></script>
-  <script src="assets/formoid/formoid.min.js"></script>
-  <script src="typed.js"></script>
+<script src="../typed.js"></script>
 <script>
 	var typed = new Typed('.typed-words', {
 	strings: ["Incrível"," Qualidade"," Preço", " Prazo"],
@@ -344,6 +191,9 @@
 	showCursor: true
 	});
 </script>
-  
-</body>
-</html>
+
+<!--Fim do Conteúdo da Página-->  
+
+<?php
+    include("../include/footer.php");
+?>
