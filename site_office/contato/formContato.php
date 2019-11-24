@@ -1,10 +1,9 @@
 <?php
+echo'oi';
 
 header('Content-Type: text/html; charset=utf-8');
 
 //include("../../model/conexao/conecta.php"); //incluir arquivo com conexão ao banco de dados
-
-    $email = utf8_decode (strip_tags(trim($_GET['email'])));
 
 require_once("../../phpmailer/class.phpmailer.php");
 require_once("../../phpmailer/class.smtp.php");
@@ -16,28 +15,22 @@ $mailer->Port = 587; //Indica a porta de conexão
 $mailer->SMTPSecure = 'tls';
 $mailer->Host = 'smtp.gmail.com';
 $mailer->SMTPAuth = true; //define se haverá ou não autenticação 
-$mailer->Username = 'samp.ferramenta@gmail.com'; //Login de autenticação do SMTP
-$mailer->Password = 'samp2019'; //Senha de autenticação do SMTP
-$mailer->FromName = 'SAMP (Scrum - Agile - Management - Planning)'; //Nome que será exibido
-$mailer->From = 'samp.ferramenta@gmail.com'; //Obrigatório ser a mesma caixa postal configurada no remetente do SMTP
+$mailer->Username = 'contato@officejr.com.br'; //Login de autenticação do SMTP
+$mailer->Password = 'office8899'; //Senha de autenticação do SMTP
+$mailer->FromName = 'Office Jr. Consultoria)'; //Nome que será exibido
+$mailer->From = 'contato@officejr.com.br'; //Obrigatório ser a mesma caixa postal configurada no remetente do SMTP
 $mailer->AddAddress($email,$nome);
 //Destinatários
-$mailer->Subject = 'Recupere sua conta no SAMP';
-$mailer->Body = 'Prezado (a) ' . $nome . ',
-
-entre com o usuario e a senha abaixo para acessar sua conta na ferramenta SAMP:
-
-Usuario: ' . $usuario . '
-Senha: ' . $senha . '
-
-Atenciosamente,
+$mailer->Subject = 'Envio de formulário site Office Jr. Consultoria';
+$mailer->Body = 'Novo envio de formulário através do site Office Jr. Consultoria
+                Nome:' . $nome . ',
+                Email: ' .$email.' 
+                Telefone: ' .$telefone. '
+                Mensagem: ' .$mensagem.'
 				
-Equipe SAMP';
+Equipe Office Jr. Consultoria';
 
 if(!$mailer->Send()){
     echo "Mailer Error: " . $mailer->ErrorInfo;
-} else {
-    echo "<script>alert('Acesse seu e-mail para recuperar a sua senha.');</script>";
-	echo "<script>window.location = '../../view/usuario/login.html';</script>";
 }
 ?>

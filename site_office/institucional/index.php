@@ -15,10 +15,7 @@
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">
                     Click any text to edit or style it. Select text to insert a link. Click blue "Gear" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red "+" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add themes.
                 </p>
-                <div class="mbr-section-btn">
-                    <a class="btn btn-md btn-secondary display-4" href="#">LEARN MORE</a>
-                    <a class="btn btn-md btn-white-outline display-4" href="#">LIVE DEMO</a>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -38,14 +35,14 @@
             Somos uma empresa multidisciplinar que atua nas seguintes áreas
         </h3>
         <div class="media-container-row pt-5">
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
+            <div class="card p-2 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper ">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
                         <div class="mbr-section-btn text-center">
-                            <a href="" class="btn btn-primary display-4">Saiba Mais</a>
+                            <a href="../servicos/administracao.php" class="btn btn-primary display-4">Saiba Mais</a>
                         </div>
-                        <img src="../assets/images/cursos/adm.jpg" alt="Administração" style="height: 400px;">
+                        <img src="../assets/images/cursos/adm_peq.jpg" alt="Administração" style="height: 400px;">
                     </div>
                     <div class="card-box">
                         <h4 class="card-title mbr-fonts-style display-7">
@@ -53,12 +50,13 @@
                         </h4>
                         <p class="mbr-text mbr-fonts-style align-left display-7">
                                 O profissional formado em Administração de Empresas tem como principal função planejar, 
-                                organizar e gerenciar o uso dos recursos pessoais e financeiros de uma organização. <br><br>
+                                organizar e gerenciar o uso dos recursos pessoais e financeiros de uma organização. 
+                                <br><br><br>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
+            <div class="card p-2 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
@@ -80,12 +78,12 @@
                 </div>
             </div>
 
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
+            <div class="card p-2 col-12 col-md-6 col-lg-4">
                 <div class="card-wrapper">
                     <div class="card-img">
                         <div class="mbr-overlay"></div>
                         <div class="mbr-section-btn text-center">
-                            <a href="" class="btn btn-primary display-4">Saiba Mais</a>
+                            <a href="../servicos/pedagogia.php" class="btn btn-primary display-4">Saiba Mais</a>
                         </div>
                         <img src="../assets/images/cursos/ped.jpg" alt="Pedagogia" style="height: 400px;">
                     </div>
@@ -97,17 +95,18 @@
                                 O licenciado em Pedagogia entende os princípios e métodos de ensino, da administração de 
                                 escolas e da condução dos assuntos educacionais. Ele trabalha para garantir e melhorar a 
                                 qualidade da educação.
+                                <br><br>
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="card p-3 col-12 col-md-6 col-lg-4">
+            <div class="card p-2 col-12 col-md-6 col-lg-4">
                     <div class="card-wrapper">
                         <div class="card-img">
                             <div class="mbr-overlay"></div>
                             <div class="mbr-section-btn text-center">
-                                <a href="" class="btn btn-primary display-4">Saiba Mais</a>
+                                <a href="../servicos/engenharia_metalurgica.php" class="btn btn-primary display-4">Saiba Mais</a>
                             </div>
                             <img src="../assets/images/cursos/em.jpg" alt="Engenharia Metalúrgica" style="height: 400px;">
                         </div>
@@ -116,7 +115,8 @@
                                 Engenharia Metalúrgica
                             </h4>
                             <p class="mbr-text mbr-fonts-style display-7">
-                                    O Engenheiro Metalúrgico é responsável pelos projetos de tratamento e de produção de metais e ligas metálicas.<br><br><br><br>
+                                    O Engenheiro Metalúrgico é responsável pelos projetos de tratamento e de produção de metais e ligas metálicas.
+                                    <br><br><br><br>
                             </p>
                         </div>
                     </div>
@@ -141,9 +141,9 @@
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="#" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form"><input type="hidden" name="email" data-form-email="true" value="hLTMjNHuZ0Bbdi1nrV++GNuggy7xqEQSzy26A9OytJTuH0kjErwPl7HPMMphKah2P5sAJwfvCtLUqcyHKRDSHyJOFEgyueMgEnPq5iBo3a5/ao0KfSlLln3P63HaIwPb">
+                <form action="../contato/formContato.php" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form"><input type="hidden" name="email" data-form-email="true">
                     <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigada por entrar em contato conosco, responderemos em breve!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                         </div>
                     </div>
@@ -151,22 +151,22 @@
                         <div class="col-md-4  form-group" data-for="name">
                             <label for="name-contato" class="form-control-label mbr-fonts-style display-7">Nome</label>
                             <label style="color:#ed3237;" for="name-contato" class="form-control-label mbr-fonts-style display-7">*</label>
-                            <input type="text" name="name" data-form-field="Name" placeholder="Nome" required="required" class="form-control display-7" id="name-contato">
+                            <input type="text" name="name" data-form-field="Name" placeholder="Nome" required="required" class="form-control display-7" id="nome">
                         </div>
                         <div class="col-md-4  form-group" data-for="email">
                             <label for="email-contato" class="form-control-label mbr-fonts-style display-7">Email</label>
                             <label style="color:#ed3237;" for="name-contato" class="form-control-label mbr-fonts-style display-7">*</label>
-                            <input type="email" name="email" data-form-field="Email" placeholder="Ex.: exemplo@exemplo.com.br" required="required" class="form-control display-7" id="email-contato">
+                            <input type="email" name="email" data-form-field="Email" placeholder="Ex.: exemplo@exemplo.com.br" required="required" class="form-control display-7" id="email">
                         </div>
                         <div data-for="phone" class="col-md-4  form-group">
                             <label for="phone-contato" class="form-control-label mbr-fonts-style display-7">Telefone</label>
                             <label style="color:#ed3237;" for="name-contato" class="form-control-label mbr-fonts-style display-7">*</label>
-                            <input type="tel" name="phone" data-form-field="Phone" required="required" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" placeholder="Ex.: (00) 00000-0000" class="form-control display-7 phone-ddd-mask" id="phone-contato">
+                            <input type="tel" name="phone" data-form-field="Phone" required="required" placeholder="Ex.: (00) 00000-0000" class="form-control display-7 phone-ddd-mask" id="telefone">
                         </div>
                         <div data-for="message" class="col-md-12 form-group">
                             <label for="message-contato" class="form-control-label mbr-fonts-style display-7">Mensagem</label>
                             <label style="color:#ed3237;" for="name-contato" class="form-control-label mbr-fonts-style display-7">*</label>
-                            <textarea name="message" data-form-field="Message" required="required" placeholder="Insira aqui a mensagem" class="form-control display-7" id="message-contato"></textarea>
+                            <textarea name="message" data-form-field="Message" required="required" placeholder="Insira aqui a mensagem" class="form-control display-7" id="msg"></textarea>
                         </div>
                         <div data-for="phone" class="col-md-4  form-group">
                             <label style="color:#ed3237;" for="name-contato" class="form-control-label mbr-fonts-style display-7">* Obrigatório</label>

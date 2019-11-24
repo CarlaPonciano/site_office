@@ -2501,17 +2501,73 @@ section.lazy-placeholder:after {
   display: flex;
   flex-direction: column-reverse;
 }
-.cid-rIo8n4zltA {
-  background-image: url("../../../assets/images/si-grande-2000x1335.jpg");
+
+/*Imagens Parallax-*/
+
+/*Sistemas de Informação*/
+.img_sist {
+  background-image: url("../../../assets/images/si-grande.jpg");
 }
-.cid-rIo8n4zltA .mbr-section-subtitle {
+.img_sist .mbr-section-subtitle {
   letter-spacing: .2rem;
 }
-.cid-rIo8n4zltA .media-container-column {
+.img_sist .media-container-column {
   background-color: #4f4943;
 }
 @media (max-width: 767px) {
-  .cid-rIo8n4zltA .media-container-column {
+  .img_sist .media-container-column {
     padding: 1rem !important;
   }
 }
+/*---*/
+
+/*Pedagogia*/
+.img_ped {
+  background-image: url("../../../assets/images/ped.jpg");
+}
+.img_ped .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.img_ped .media-container-column {
+  background-color: #4f4943;
+}
+@media (max-width: 767px) {
+  .img_ped .media-container-column {
+    padding: 1rem !important;
+  }
+}
+/*---*/
+
+/*Engenharia Metalúrgica*/
+.img_em {
+  background-image: url("../../../assets/images/em.png");
+}
+.img_em .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.img_em .media-container-column {
+  background-color: #4f4943;
+}
+@media (max-width: 767px) {
+  .img_em .media-container-column {
+    padding: 1rem !important;
+  }
+}
+/*---*/
+
+/*Administração*/
+.img_adm {
+  background-image: url("../../../assets/images/adm.jpg");
+}
+.img_adm .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.img_adm .media-container-column {
+  background-color: #4f4943;
+}
+@media (max-width: 767px) {
+  .img_adm .media-container-column {
+    padding: 1rem !important;
+  }
+}
+/*---*/
