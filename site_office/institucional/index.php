@@ -139,9 +139,9 @@
     </div>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="media-container-column col-lg-8" data-form-type="formoid">
+            <div class="media-container-column col-lg-8" data-form-type="">
                 <!---Formbuilder Form--->
-                <form action="../contato/formContato.php" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form"><input type="hidden" name="email" data-form-email="true">
+                <form action="../contato/formContato.php" method="POST" class="mbr-form form-with-styler" data-form-title="Contact Form">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Obrigada por entrar em contato conosco, responderemos em breve!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
@@ -151,7 +151,7 @@
                         <div class="col-md-4  form-group" data-for="name">
                             <label for="name-contato" class="form-control-label mbr-fonts-style display-7">Nome</label>
                             <label style="color:#ed3237;" for="name-contato" class="form-control-label mbr-fonts-style display-7">*</label>
-                            <input type="text" name="name" data-form-field="Name" placeholder="Nome" required="required" class="form-control display-7" id="nome">
+                            <input type="text" name="nome" data-form-field="Name" placeholder="Nome" required="required" class="form-control display-7" id="nome">
                         </div>
                         <div class="col-md-4  form-group" data-for="email">
                             <label for="email-contato" class="form-control-label mbr-fonts-style display-7">Email</label>
@@ -161,17 +161,17 @@
                         <div data-for="phone" class="col-md-4  form-group">
                             <label for="phone-contato" class="form-control-label mbr-fonts-style display-7">Telefone</label>
                             <label style="color:#ed3237;" for="name-contato" class="form-control-label mbr-fonts-style display-7">*</label>
-                            <input type="tel" name="phone" data-form-field="Phone" required="required" placeholder="Ex.: (00) 00000-0000" class="form-control display-7 phone-ddd-mask" id="telefone">
+                            <input type="tel" name="telefone" data-form-field="Phone" required="required" placeholder="Ex.: (00) 00000-0000" class="form-control display-7 phone-ddd-mask" id="telefone">
                         </div>
-                        <div data-for="message" class="col-md-12 form-group">
-                            <label for="message-contato" class="form-control-label mbr-fonts-style display-7">Mensagem</label>
+                        <div data-for="msg" class="col-md-12 form-group">
+                            <label for="msg" class="form-control-label mbr-fonts-style display-7">Mensagem</label>
                             <label style="color:#ed3237;" for="name-contato" class="form-control-label mbr-fonts-style display-7">*</label>
-                            <textarea name="message" data-form-field="Message" required="required" placeholder="Insira aqui a mensagem" class="form-control display-7" id="msg"></textarea>
+                            <textarea name="msg" data-form-field="Message" required="required" placeholder="Insira aqui a mensagem" class="form-control display-7" id="msg"></textarea>
                         </div>
                         <div data-for="phone" class="col-md-4  form-group">
                             <label style="color:#ed3237;" for="name-contato" class="form-control-label mbr-fonts-style display-7">* Obrigatório</label>
                         </div>
-                        <div class="col-md-12 input-group-btn align-center"><button type="submit" class="btn btn-form btn-secondary display-4">Enviar</button></div>
+                        <div class="col-md-12 input-group-btn align-center"><button type="submit" name="contato" class="btn btn-form btn-secondary display-4">Enviar</button></div>
                     </div>
                 </form><!---Formbuilder Form--->
             </div>
